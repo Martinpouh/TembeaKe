@@ -1,3 +1,3 @@
 class PassengerScheduleSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :passenger_id, :schedule_id
 end
