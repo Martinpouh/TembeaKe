@@ -1,3 +1,3 @@
 class ScheduleSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :name, :description, :location, :date, :start_time, :duration, :cost
 end
