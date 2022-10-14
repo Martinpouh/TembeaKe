@@ -1,0 +1,2 @@
+class PassengerFlightsController < ApplicationController
+end

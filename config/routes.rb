@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   
+  resources :schedules
+  resources :passengers
+  resources :passenger_schedules
+  resources :passenger_flights
+  resources :passengerflights
   resources :flights
   # Routing logic: fallback requests for React Router.
   # Leave this here to help deploy your app later!
